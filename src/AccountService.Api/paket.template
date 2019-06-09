@@ -1,0 +1,24 @@
+type file
+version 1.0.0
+
+id Be.Vlaanderen.Basisregisters.AccountService.Api
+title Be.Vlaanderen.Basisregisters.AccountService.Api
+
+authors exira.com
+owners exira.com <https://exira.com>
+copyright Copyright (c) exira.com
+requireLicenseAcceptance false
+projectUrl https://github.com/exira/account-service
+iconUrl https://raw.githubusercontent.com/informatievlaanderen/build-pipeline/master/logo.png
+licenseUrl https://opensource.org/licenses/EUPL-1.2
+
+description Account Service.
+
+files
+  AccountService.Api.dll => lib\netcoreapp2.2
+  AccountService.Api.pdb => lib\netcoreapp2.2
+  AccountService.Api.xml => lib\netcoreapp2.2
+  AccountService.Api.xml => content
+
+  AccountService.dll => lib\netcoreapp2.2
+  AccountService.pdb => lib\netcoreapp2.2

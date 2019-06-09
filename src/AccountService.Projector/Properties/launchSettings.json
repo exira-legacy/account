@@ -1,0 +1,20 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:8121/",
+      "sslPort": 9100
+    }
+  },
+  "profiles": {
+    "AccountService.Projector.Api": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:6001;http://localhost:6000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+    }
+  }
+}

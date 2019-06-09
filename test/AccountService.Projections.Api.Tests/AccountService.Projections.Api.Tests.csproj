@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\packages\Be.Vlaanderen.Basisregisters.Build.Pipeline\Content\Be.Vlaanderen.Basisregisters.Build.Pipeline.Settings.Test.props" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\AccountService\AccountService.csproj" />
+    <ProjectReference Include="..\..\src\AccountService.Infrastructure\AccountService.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\AccountService.Projections.Api\AccountService.Projections.Api.csproj" />
+    <ProjectReference Include="..\..\test\AccountService.Tests\AccountService.Tests.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>
